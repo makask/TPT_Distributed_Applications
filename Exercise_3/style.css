@@ -1,0 +1,46 @@
+li.ant-list-item[data-template] {
+    display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#register-new-user:hover{
+  cursor: pointer;
+  color:blue;
+}
+
+#loggedUserName:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+#login, #register-form {
+  gap: 10px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+
+#userInfo {
+  position: absolute;
+  left: 80%;
+  top: 20%;
+}
+
+#userData {
+  position: absolute;
+  left: 80%;
+  top: 30%;
+}
+
+#change-pwd-div {
+  position: absolute;
+  left: 80%;
+  top: 60%;
+}
